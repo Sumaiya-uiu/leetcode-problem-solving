@@ -26,7 +26,7 @@ def spellchecker(wordlist, queries):
             result.append("")
     return result
 
-# Example usage
+
 wordlist1 = ["KiTe","kite","hare","Hare"]
 queries1 = ["kite","Kite","KiTe","Hare","HARE","Hear","hear","keti","keet","keto"]
 print(spellchecker(wordlist1, queries1))
